@@ -1,6 +1,6 @@
 package devices;
 
-public class ScannerDevice extends Device{
+public class ScannerDevice extends Device implements Scanner{
 
 	public ScannerDevice(String serialNumber) {
 		super(serialNumber);		
